@@ -54,7 +54,6 @@ module.exports = async function (context, req) {
     },
     status: 200,
     body: {
-      message: "Success",
       modules: limitedMods,
       maxPage: maxPage,
     },
